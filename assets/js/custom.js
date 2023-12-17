@@ -1,14 +1,17 @@
 (function ($) {
-    'use strict';
-    $(window).on('scroll', function () {
-        if ($(this).scrollTop() > 150) {
-            $('.navbar-area').addClass("is-sticky");
-        } else {
-            $('.navbar-area').removeClass("is-sticky");
-        }
+  $('.mean-menu').meanmenu({
+    meanScreenWidth: "991"
+  });
 
-    });
+  'use strict';
+  $(window).on('scroll', function () {
+    if ($(this).scrollTop() > 150) {
+      $('.navbar-area').addClass("is-sticky");
+    } else {
+      $('.navbar-area').removeClass("is-sticky");
+    }
 
+  });
 
 
 })(jQuery);
