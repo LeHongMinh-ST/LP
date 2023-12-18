@@ -13,6 +13,9 @@
 
   });
 
+  $('.department-item__btn_next').click(function () {
+    $('#modelDepartment').modal('show');
+  })
 
 })(jQuery);
 
@@ -67,4 +70,6 @@ const swiper2 = new Swiper('#mySwiperBlog', {
   }
 
 })
+
+
 

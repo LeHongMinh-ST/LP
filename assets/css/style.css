@@ -328,6 +328,7 @@ body {
   position: absolute;
   bottom: 20px;
   right: 20px;
+  cursor: pointer;
 }
 .department-arena .department-main .department-content-mb .department-content--item {
   width: 100%;
