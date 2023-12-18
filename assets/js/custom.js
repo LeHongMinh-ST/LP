@@ -38,3 +38,33 @@ const swiper = new Swiper('#mySwiper', {
     enabled: false,
   },
 });
+
+const swiper2 = new Swiper('#mySwiperBlog', {
+  // Optional parameters
+  slidesPerView: 4,
+  spaceBetween: 10,
+  loop: true,
+
+  centeredSlides: true,
+  scrollbar: {
+    enabled: false,
+  },
+  breakpoints : {
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 10
+    },
+
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 10
+    },
+
+    1440: {
+      slidesPerView: 3,
+      spaceBetween: 10
+    },
+  }
+
+})
+
