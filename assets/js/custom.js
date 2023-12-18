@@ -1,6 +1,6 @@
 (function ($) {
   $('.mean-menu').meanmenu({
-    meanScreenWidth: "991"
+    meanScreenWidth: "1044"
   });
 
   'use strict';
